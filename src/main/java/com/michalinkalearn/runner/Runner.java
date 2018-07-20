@@ -1,0 +1,13 @@
+package com.michalinkalearn.runner;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+        features = {"/home/tzablock/IdeaProjects/michalinkalearn/src/main/resources/buyproduct.feature"},
+        glue = {"com.michalinkalearn.steps"}
+)
+public class Runner {
+}
