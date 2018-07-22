@@ -1,0 +1,5 @@
+(to work: git init > git remote add origin https://github.com/tzablock/misk-cucmber-selenium.git > git pull)
+git status  -> check status
+git add --all -> add all files into git
+git commit -m "commit description" -> commit to local repository
+git push -> push into remote repository
